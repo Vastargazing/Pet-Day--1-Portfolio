@@ -1,0 +1,55 @@
+.aboutme {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 50px;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.523);
+      border-radius: 20px;
+      backdrop-filter: blur(5px);
+      border: solid 1px black;
+
+      .home-container-text {
+            display: grid;
+            flex-direction: column;
+            margin-left: 50px;
+
+
+            h1 {
+                  font-size: 3.5rem;
+                  color: rgba(0, 0, 0, 0.663);
+                  max-width: 750px;
+                  line-height: 150%;
+            }
+
+            p {
+                  color: black;
+                  background-color: rgba(255, 0, 0, 0.705);
+                  color: white;
+                  padding: 10px;
+                  font-size: 2rem;
+                  max-width: 600px;
+                  font-weight: 300;
+                  line-height: 160%;
+                  margin-top: 10px;
+                  // margin: 40px 0px;
+                  // align-self: start;
+                  // border-radius: 20px;
+            }
+
+            span {
+                  background-image:
+                        linear-gradient(265deg, #ff0094 -10% -10%, #ffda00 126% 126%);
+                  padding: 7px;
+                  border-radius: 10px;
+            }
+      }
+
+
+      .heroimg {
+            opacity: 0.8;
+            border-radius: 10px;
+            margin-right: 50px;
+      }
+
+}

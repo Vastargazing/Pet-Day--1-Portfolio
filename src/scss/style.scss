@@ -1,0 +1,29 @@
+@import "./nav", "./reset", "_background",
+"./hero", "./banner";
+
+main {
+      position: relative;
+}
+
+.typewriter:after {
+      content: "|";
+      margin-left: 10px;
+      opacity: 1;
+      animation: blink 1s infinite;
+      color: rgb(13, 26, 161);
+      font-weight: bold;
+}
+
+@keyframes blink {
+      0% {
+            opacity: 1;
+      }
+
+      50% {
+            opacity: 0;
+      }
+
+      100% {
+            opacity: 1;
+      }
+}
